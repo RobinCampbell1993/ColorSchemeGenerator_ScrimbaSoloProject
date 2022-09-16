@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Color Scheme Generator</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <form id="color-form">
+                <input id="color-picker" type="color">
+                <select name="color-mode" id="color-mode-selector">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button type="submit" id="get-color-scheme-btn">Get color scheme</button>
+            </form>
+        </header>
+        <main id="main">
+            <!-- <div class="img-container">
+                <img src="${data.colors[i].image.bare}" id="color-img" alt="color-img">
+                <p>${data.colors[i].hex.value}</p>
+            </div> -->
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
