@@ -1,4 +1,4 @@
-# ColorSchemeGenerator_ScrimbaSoloProject
+# [ColorSchemeGenerator_ScrimbaSoloProject](https://robincampbell1993.github.io/ColorSchemeGenerator_ScrimbaSoloProject/)
 ### A small site that allows users to **select a colour and colour mode to get a colour scheme**.
 
 
