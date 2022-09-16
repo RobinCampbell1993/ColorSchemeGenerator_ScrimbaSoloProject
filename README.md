@@ -5,7 +5,7 @@ Completed as part of the Scrimba Frontend Career Path - Module 9 (Working with A
 
 The key learning for this project is:
 
-• Using an API (https://www.thecolorapi.com/)
+  • Using an API (https://www.thecolorapi.com/)
 
 #######################
 
